@@ -25,15 +25,15 @@
 #include <map>
 #include <vector>
 
-#include <coin/block_index.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/db_tx.hpp>
-#include <coin/file.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_in.hpp>
-#include <coin/transaction_index.hpp>
-#include <coin/transaction_out.hpp>
-#include <coin/transaction_position.hpp>
+#include "block_index.hpp"
+#include "data_buffer.hpp"
+#include "db_tx.hpp"
+#include "file.hpp"
+#include "sha256.hpp"
+#include "transaction_in.hpp"
+#include "transaction_index.hpp"
+#include "transaction_out.hpp"
+#include "transaction_position.hpp"
 
 namespace coin {
     

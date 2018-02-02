@@ -23,10 +23,10 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/logger.hpp>
-#include <coin/protocol.hpp>
-#include <coin/tcp_acceptor.hpp>
-#include <coin/tcp_transport.hpp>
+#include "../include/coin/logger.hpp"
+#include "../include/coin/protocol.hpp"
+#include "../include/coin/tcp_acceptor.hpp"
+#include "../include/coin/tcp_transport.hpp"
 
 using namespace coin;
 

@@ -22,8 +22,8 @@
 #ifndef COIN_ZEROTIME_ANSWER_HPP
 #define COIN_ZEROTIME_ANSWER_HPP
 
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
+#include "data_buffer.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

@@ -21,30 +21,30 @@
 
 #include <random>
 
-#include <database/block.hpp>
-#include <database/broadcast_operation.hpp>
-#include <database/constants.hpp>
-#include <database/ecdhe.hpp>
-#include <database/entry.hpp>
-#include <database/find_operation.hpp>
-#include <database/key_pool.hpp>
-#include <database/logger.hpp>
-#include <database/message.hpp>
-#include <database/network.hpp>
-#include <database/node.hpp>
-#include <database/node_impl.hpp>
-#include <database/operation_queue.hpp>
-#include <database/ping_operation.hpp>
-#include <database/protocol.hpp>
-#include <database/random.hpp>
-#include <database/routing_table.hpp>
-#include <database/slot.hpp>
-#include <database/storage.hpp>
-#include <database/store_operation.hpp>
-#include <database/udp_handler.hpp>
-#include <database/udp_multiplexor.hpp>
-#include <database/utility.hpp>
-#include <database/whirlpool.hpp>
+#include "../include/database/block.hpp"
+#include "../include/database/broadcast_operation.hpp"
+#include "../include/database/constants.hpp"
+#include "../include/database/ecdhe.hpp"
+#include "../include/database/entry.hpp"
+#include "../include/database/find_operation.hpp"
+#include "../include/database/key_pool.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/message.hpp"
+#include "../include/database/network.hpp"
+#include "../include/database/node.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/operation_queue.hpp"
+#include "../include/database/ping_operation.hpp"
+#include "../include/database/protocol.hpp"
+#include "../include/database/random.hpp"
+#include "../include/database/routing_table.hpp"
+#include "../include/database/slot.hpp"
+#include "../include/database/storage.hpp"
+#include "../include/database/store_operation.hpp"
+#include "../include/database/udp_handler.hpp"
+#include "../include/database/udp_multiplexor.hpp"
+#include "../include/database/utility.hpp"
+#include "../include/database/whirlpool.hpp"
 
 #if (defined _MSC_VER)
 #undef min

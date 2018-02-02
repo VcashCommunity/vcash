@@ -32,7 +32,7 @@
 #include <thread>
 #include <vector>
 
-#include <coin/filesystem.hpp>
+#include "filesystem.hpp"
 
 namespace coin {
 

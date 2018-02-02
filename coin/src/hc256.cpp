@@ -23,8 +23,8 @@
 #include <cstdint>
 #include <cstring>
 
-#include <coin/hc256.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/hc256.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

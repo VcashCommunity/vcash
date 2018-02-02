@@ -26,10 +26,10 @@
 #include <boost/asio.hpp>
 #include <boost/format.hpp>
 
-#include <coin/constants.hpp>
-#include <coin/filesystem.hpp>
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/constants.hpp"
+#include "../include/coin/filesystem.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

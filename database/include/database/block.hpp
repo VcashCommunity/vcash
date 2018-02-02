@@ -29,7 +29,7 @@
 
 #include <boost/asio.hpp>
 
-#include <database/message.hpp>
+#include "message.hpp"
 
 namespace database {
 

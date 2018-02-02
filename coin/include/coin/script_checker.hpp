@@ -24,8 +24,8 @@
 
 #include <cstdint>
 
-#include <coin/script.hpp>
-#include <coin/transaction.hpp>
+#include "script.hpp"
+#include "transaction.hpp"
 
 namespace coin {
     

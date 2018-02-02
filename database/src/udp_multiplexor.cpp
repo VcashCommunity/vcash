@@ -22,9 +22,9 @@
 #include <iostream>
 #include <stdexcept>
 
-#include <database/logger.hpp>
-#include <database/network.hpp>
-#include <database/udp_multiplexor.hpp>
+#include "../include/database/logger.hpp"
+#include "../include/database/network.hpp"
+#include "../include/database/udp_multiplexor.hpp"
 
 using namespace database;
 

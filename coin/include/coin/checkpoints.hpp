@@ -26,12 +26,12 @@
 #include <map>
 #include <mutex>
 
-#include <coin/sha256.hpp>
-#include <coin/checkpoint_sync.hpp>
+#include "sha256.hpp"
+#include "checkpoint_sync.hpp"
 
 
-#include <coin/block_index.hpp>
-#include <coin/globals.hpp>
+#include "block_index.hpp"
+#include "globals.hpp"
 
 namespace coin {
 

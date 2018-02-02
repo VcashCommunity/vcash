@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/incentive_question.hpp>
+#include "../include/coin/incentive_question.hpp"
 
 using namespace coin;
 

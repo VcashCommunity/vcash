@@ -27,7 +27,7 @@
 #include <cassert>
 #include <memory>
 
-#include <coin/sha256.hpp>
+#include "../include/coin/sha256.hpp"
 
 using namespace coin;
 

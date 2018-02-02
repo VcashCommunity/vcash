@@ -25,9 +25,9 @@
 #include <array>
 #include <cstdint>
 
-#include <coin/blake256.hpp>
-#include <coin/sha256.hpp>
-#include <coin/whirlpool.hpp>
+#include "blake256.hpp"
+#include "sha256.hpp"
+#include "whirlpool.hpp"
 
 namespace coin {
 

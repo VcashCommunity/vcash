@@ -21,8 +21,8 @@
 
 #include <cassert>
 
-#include <coin/time.hpp>
-#include <coin/zerotime_lock.hpp>
+#include "../include/coin/time.hpp"
+#include "../include/coin/zerotime_lock.hpp"
 
 using namespace coin;
 

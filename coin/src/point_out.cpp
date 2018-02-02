@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/logger.hpp>
-#include <coin/point_out.hpp>
+#include "../include/coin/logger.hpp"
+#include "../include/coin/point_out.hpp"
 
 using namespace coin;
 

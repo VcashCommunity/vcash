@@ -19,16 +19,16 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block.hpp>
-#include <coin/checkpoint_sync.hpp>
-#include <coin/constants.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/hash.hpp>
-#include <coin/logger.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/checkpoint_sync.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/key_public.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

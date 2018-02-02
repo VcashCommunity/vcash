@@ -21,7 +21,7 @@
 
 #include <cassert>
 
-#include <coin/incentive_sync.hpp>
+#include "../include/coin/incentive_sync.hpp"
 
 using namespace coin;
 

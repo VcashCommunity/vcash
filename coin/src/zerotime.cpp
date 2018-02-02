@@ -21,16 +21,16 @@
 
 #include <cassert>
 
-#include <coin/address.hpp>
-#include <coin/block_merkle.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/logger.hpp>
-#include <coin/time.hpp>
-#include <coin/transaction.hpp>
-#include <coin/types.hpp>
-#include <coin/utility.hpp>
-#include <coin/zerotime.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/block_merkle.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/transaction.hpp"
+#include "../include/coin/types.hpp"
+#include "../include/coin/utility.hpp"
+#include "../include/coin/zerotime.hpp"
 
 using namespace coin;
 

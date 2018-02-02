@@ -34,14 +34,14 @@
 #include <boost/asio.hpp>
 #include <boost/asio/signal_set.hpp>
 
-#include <database/compression.hpp>
-#include <database/ecdhe.hpp>
-#include <database/hc256.hpp>
-#include <database/protocol.hpp>
-#include <database/routing_table.hpp>
-#include <database/slot.hpp>
-#include <database/stack.hpp>
-#include <database/storage.hpp>
+#include "../include/database/compression.hpp"
+#include "../include/database/ecdhe.hpp"
+#include "../include/database/hc256.hpp"
+#include "../include/database/protocol.hpp"
+#include "../include/database/routing_table.hpp"
+#include "../include/database/slot.hpp"
+#include "../include/database/stack.hpp"
+#include "../include/database/storage.hpp"
 
 using namespace database;
 
@@ -75,7 +75,7 @@ class my_database_stack : public database::stack
         // ...
 };
 
-#include <database/ecdhe.h>
+#include "../include/database/ecdhe.h"
 
 int main(int argc, const char * argv[])
 {

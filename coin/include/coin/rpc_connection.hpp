@@ -30,14 +30,14 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/variant/static_visitor.hpp>
 
-#include <coin/address.hpp>
-#include <coin/destination.hpp>
-#include <coin/globals.hpp>
-#include <coin/key_public.hpp>
-#include <coin/rpc_json_parser.hpp>
-#include <coin/types.hpp>
-#include <coin/utility.hpp>
-#include <coin/wallet.hpp>
+#include "address.hpp"
+#include "destination.hpp"
+#include "globals.hpp"
+#include "key_public.hpp"
+#include "rpc_json_parser.hpp"
+#include "types.hpp"
+#include "utility.hpp"
+#include "wallet.hpp"
 
 namespace coin {
 

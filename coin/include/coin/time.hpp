@@ -27,10 +27,10 @@
 #include <set>
 #include <vector>
 
-#include <coin/logger.hpp>
-#include <coin/median_filter.hpp>
-#include <coin/protocol.hpp>
-#include <coin/utility.hpp>
+#include "logger.hpp"
+#include "median_filter.hpp"
+#include "protocol.hpp"
+#include "utility.hpp"
 
 namespace coin {
 

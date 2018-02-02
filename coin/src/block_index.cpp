@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  
-#include <coin/block.hpp>
-#include <coin/block_index.hpp>
-#include <coin/constants.hpp>
-#include <coin/stack_impl.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/block_index.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/stack_impl.hpp"
 
 using namespace coin;
 

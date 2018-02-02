@@ -29,7 +29,7 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/sha256.hpp>
+#include "sha256.hpp"
 
 namespace coin {
 

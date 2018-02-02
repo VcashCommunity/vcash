@@ -21,7 +21,7 @@
 
 #include <cassert>
 
-#include <coin/incentive_collaterals.hpp>
+#include "../include/coin/incentive_collaterals.hpp"
 
 using namespace coin;
 

@@ -24,8 +24,8 @@
 
 #include <set>
 
-#include <coin/address_manager.hpp>
-#include <coin/data_buffer.hpp>
+#include "address_manager.hpp"
+#include "data_buffer.hpp"
 
 namespace coin {
 

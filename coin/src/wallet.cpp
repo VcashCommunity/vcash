@@ -26,31 +26,31 @@
 
 #include <boost/lexical_cast.hpp>
 
-#include <coin/account.hpp>
-#include <coin/accounting_entry.hpp>
-#include <coin/address.hpp>
-#include <coin/block_locator.hpp>
-#include <coin/block_merkle.hpp>
-#include <coin/chainblender.hpp>
-#include <coin/coin_control.hpp>
-#include <coin/constants.hpp>
-#include <coin/crypter.hpp>
-#include <coin/db_env.hpp>
-#include <coin/hash.hpp>
-#include <coin/incentive.hpp>
-#include <coin/incentive_manager.hpp>
-#include <coin/kernel.hpp>
-#include <coin/key_reserved.hpp>
-#include <coin/key_pool.hpp>
-#include <coin/logger.hpp>
-#include <coin/random.hpp>
-#include <coin/reward.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
-#include <coin/time.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/wallet.hpp>
-#include <coin/zerotime_manager.hpp>
+#include "../include/coin/account.hpp"
+#include "../include/coin/accounting_entry.hpp"
+#include "../include/coin/address.hpp"
+#include "../include/coin/block_locator.hpp"
+#include "../include/coin/block_merkle.hpp"
+#include "../include/coin/chainblender.hpp"
+#include "../include/coin/coin_control.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/crypter.hpp"
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/incentive_manager.hpp"
+#include "../include/coin/kernel.hpp"
+#include "../include/coin/key_reserved.hpp"
+#include "../include/coin/key_pool.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/random.hpp"
+#include "../include/coin/reward.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/zerotime_manager.hpp"
 
 using namespace coin;
 

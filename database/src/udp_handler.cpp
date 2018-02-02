@@ -21,17 +21,17 @@
 
 #include <iterator>
 
-#include <database/crypto.hpp>
-#include <database/ecdhe.hpp>
-#include <database/key_pool.hpp>
-#include <database/logger.hpp>
-#include <database/message.hpp>
-#include <database/node_impl.hpp>
-#include <database/protocol.hpp>
-#include <database/stack.hpp>
-#include <database/udp_handler.hpp>
-#include <database/udp_multiplexor.hpp>
-#include <database/whirlpool.hpp>
+#include "../include/database/crypto.hpp"
+#include "../include/database/ecdhe.hpp"
+#include "../include/database/key_pool.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/message.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/protocol.hpp"
+#include "../include/database/stack.hpp"
+#include "../include/database/udp_handler.hpp"
+#include "../include/database/udp_multiplexor.hpp"
+#include "../include/database/whirlpool.hpp"
 
 using namespace database;
 

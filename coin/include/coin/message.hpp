@@ -25,8 +25,8 @@
 #include <cstdint>
 #include <string>
 
-#include <coin/data_buffer.hpp>
-#include <coin/protocol.hpp>
+#include "data_buffer.hpp"
+#include "protocol.hpp"
 
 namespace coin {
 

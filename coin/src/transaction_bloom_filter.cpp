@@ -22,17 +22,17 @@
 #include <cassert>
 #include <cmath>
 
-#include <coin/data_buffer.hpp>
-#include <coin/hash.hpp>
-#include <coin/point_out.hpp>
-#include <coin/script.hpp>
-#include <coin/secret.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_in.hpp>
-#include <coin/transaction_out.hpp>
-#include <coin/transaction_bloom_filter.hpp>
-#include <coin/types.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/point_out.hpp"
+#include "../include/coin/script.hpp"
+#include "../include/coin/secret.hpp"
+#include "../include/coin/transaction.hpp"
+#include "../include/coin/transaction_in.hpp"
+#include "../include/coin/transaction_out.hpp"
+#include "../include/coin/transaction_bloom_filter.hpp"
+#include "../include/coin/types.hpp"
+#include "../include/coin/utility.hpp"
 
 /**
  * LN2SQUARED

@@ -19,20 +19,20 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/account.hpp>
-#include <coin/accounting_entry.hpp>
-#include <coin/address.hpp>
-#include <coin/block_locator.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/db_env.hpp>
-#include <coin/db_wallet.hpp>
-#include <coin/hd_configuration.hpp>
-#include <coin/key_wallet.hpp>
-#include <coin/key_wallet_master.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
-#include <coin/transaction_wallet.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/account.hpp"
+#include "../include/coin/accounting_entry.hpp"
+#include "../include/coin/address.hpp"
+#include "../include/coin/block_locator.hpp"
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/db_wallet.hpp"
+#include "../include/coin/hd_configuration.hpp"
+#include "../include/coin/key_wallet.hpp"
+#include "../include/coin/key_wallet_master.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
+#include "../include/coin/transaction_wallet.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

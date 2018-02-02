@@ -27,8 +27,8 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/alert.hpp>
-#include <coin/sha256.hpp>
+#include "alert.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

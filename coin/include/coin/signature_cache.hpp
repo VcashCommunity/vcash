@@ -28,7 +28,7 @@
 #include <tuple>
 #include <vector>
 
-#include <coin/sha256.hpp>
+#include "sha256.hpp"
 
 namespace coin {
 

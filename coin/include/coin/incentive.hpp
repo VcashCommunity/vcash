@@ -27,11 +27,11 @@
 #include <mutex>
 #include <vector>
 
-#include <coin/incentive_vote.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_in.hpp>
+#include "incentive_vote.hpp"
+#include "key.hpp"
+#include "key_public.hpp"
+#include "sha256.hpp"
+#include "transaction_in.hpp"
 
 #include <boost/asio.hpp>
 

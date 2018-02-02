@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block.hpp>
-#include <coin/block_index_disk.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/block_index_disk.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

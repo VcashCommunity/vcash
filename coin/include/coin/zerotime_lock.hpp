@@ -26,10 +26,10 @@
 #include <ctime>
 #include <vector>
 
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_in.hpp>
+#include "data_buffer.hpp"
+#include "sha256.hpp"
+#include "transaction.hpp"
+#include "transaction_in.hpp"
 
 namespace coin {
 

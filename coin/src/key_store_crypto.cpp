@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/crypter.hpp>
-#include <coin/key_store_crypto.hpp>
-#include <coin/secret.hpp>
+#include "../include/coin/crypter.hpp"
+#include "../include/coin/key_store_crypto.hpp"
+#include "../include/coin/secret.hpp"
 
 using namespace coin;
 

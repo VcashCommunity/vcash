@@ -22,9 +22,9 @@
 #ifndef COIN_SECRET_HPP
 #define COIN_SECRET_HPP
 
-#include <coin/address.hpp>
-#include <coin/base58.hpp>
-#include <coin/key.hpp>
+#include "address.hpp"
+#include "base58.hpp"
+#include "key.hpp"
 
 namespace coin {
 

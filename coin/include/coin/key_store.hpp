@@ -25,10 +25,10 @@
 #include <mutex>
 #include <set>
 
-#include <coin/destination.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/script.hpp>
+#include "destination.hpp"
+#include "key.hpp"
+#include "key_public.hpp"
+#include "script.hpp"
 
 namespace coin {
 

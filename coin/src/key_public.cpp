@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/data_buffer.hpp>
-#include <coin/hash.hpp>
-#include <coin/key_public.hpp>
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/key_public.hpp"
 
 using namespace coin;
 

@@ -22,7 +22,7 @@
 #ifndef COIN_INCENTIVE_QUESTION_HPP
 #define COIN_INCENTIVE_QUESTION_HPP
 
-#include <coin/data_buffer.hpp>
+#include "data_buffer.hpp"
 
 namespace coin {
     

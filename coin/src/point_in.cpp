@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/point_in.hpp>
-#include <coin/transaction.hpp>
+#include "../include/coin/point_in.hpp"
+#include "../include/coin/transaction.hpp"
 
 using namespace coin;
 

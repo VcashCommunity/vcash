@@ -25,13 +25,13 @@
 #include <boost/algorithm/string.hpp>
 #include <boost/timer.hpp>
 
-#include <database/block.hpp>
-#include <database/constants.hpp>
-#include <database/logger.hpp>
-#include <database/node_impl.hpp>
-#include <database/query.hpp>
-#include <database/routing_table.hpp>
-#include <database/utility.hpp>
+#include "../include/database/block.hpp"
+#include "../include/database/constants.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/query.hpp"
+#include "../include/database/routing_table.hpp"
+#include "../include/database/utility.hpp"
 
 using namespace database;
 

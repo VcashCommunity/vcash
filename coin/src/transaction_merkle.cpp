@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/transaction_merkle.hpp>
+#include "../include/coin/transaction_merkle.hpp"
 
 using namespace coin;
 

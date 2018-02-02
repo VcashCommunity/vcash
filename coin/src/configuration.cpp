@@ -27,15 +27,15 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include <coin/android.hpp>
-#include <coin/configuration.hpp>
-#include <coin/db_env.hpp>
-#include <coin/filesystem.hpp>
-#include <coin/logger.hpp>
-#include <coin/network.hpp>
-#include <coin/protocol.hpp>
-#include <coin/zerotime.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/android.hpp"
+#include "../include/coin/configuration.hpp"
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/filesystem.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/network.hpp"
+#include "../include/coin/protocol.hpp"
+#include "../include/coin/zerotime.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

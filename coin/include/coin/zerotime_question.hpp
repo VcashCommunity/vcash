@@ -24,8 +24,8 @@
 
 #include <vector>
 
-#include <coin/data_buffer.hpp>
-#include <coin/transaction_in.hpp>
+#include "data_buffer.hpp"
+#include "transaction_in.hpp"
 
 namespace coin {
 

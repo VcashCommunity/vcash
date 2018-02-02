@@ -25,10 +25,10 @@
 #include <mutex>
 #include <set>
 
-#include <coin/block_locator.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction.hpp>
-#include <coin/wallet.hpp>
+#include "block_locator.hpp"
+#include "sha256.hpp"
+#include "transaction.hpp"
+#include "wallet.hpp"
 
 namespace coin {
 

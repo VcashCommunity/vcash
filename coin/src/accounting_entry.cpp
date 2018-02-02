@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/accounting_entry.hpp>
-#include <coin/constants.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/accounting_entry.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

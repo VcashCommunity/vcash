@@ -27,7 +27,7 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/nat_pmp.hpp>
+#include "nat_pmp.hpp"
 
 namespace coin {
 

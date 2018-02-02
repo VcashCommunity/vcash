@@ -30,11 +30,11 @@
 
 #include <boost/noncopyable.hpp>
 
-#include <coin/data_buffer.hpp>
-#include <coin/key_pool.hpp>
-#include <coin/key_wallet_master.hpp>
-#include <coin/logger.hpp>
-#include <coin/ripemd160.hpp>
+#include "data_buffer.hpp"
+#include "key_pool.hpp"
+#include "key_wallet_master.hpp"
+#include "logger.hpp"
+#include "ripemd160.hpp"
 
 namespace coin {
     

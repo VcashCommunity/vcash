@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/globals.hpp>
-#include <coin/incentive.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

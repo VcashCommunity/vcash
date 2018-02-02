@@ -28,7 +28,7 @@
 
 #ifdef __cplusplus
 extern "C" {
-#include <database/ecdhe.h>
+#include "ecdhe.h"
 }
 #endif // __cplusplus
 

@@ -19,22 +19,22 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/address.hpp>
-#include <coin/database_stack.hpp>
-#include <coin/destination.hpp>
-#include <coin/globals.hpp>
-#include <coin/incentive.hpp>
-#include <coin/incentive_collaterals.hpp>
-#include <coin/incentive_manager.hpp>
-#include <coin/key.hpp>
-#include <coin/logger.hpp>
-#include <coin/message.hpp>
-#include <coin/script.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/types.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/database_stack.hpp"
+#include "../include/coin/destination.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/incentive_collaterals.hpp"
+#include "../include/coin/incentive_manager.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/message.hpp"
+#include "../include/coin/script.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/types.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

@@ -24,12 +24,12 @@
 
 #include <openssl/sha.h>
 
-#include <coin/big_number.hpp>
-#include <coin/hash.hpp>
-#include <coin/ripemd160.hpp>
-#include <coin/script.hpp>
-#include <coin/signature_cache.hpp>
-#include <coin/transaction.hpp>
+#include "../include/coin/big_number.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/ripemd160.hpp"
+#include "../include/coin/script.hpp"
+#include "../include/coin/signature_cache.hpp"
+#include "../include/coin/transaction.hpp"
 
 using namespace coin;
 

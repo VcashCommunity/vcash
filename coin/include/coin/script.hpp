@@ -27,16 +27,16 @@
 #include <string>
 #include <vector>
 
-#include <coin/big_number.hpp>
-#include <coin/destination.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/key_store.hpp>
-#include <coin/logger.hpp>
-#include <coin/ripemd160.hpp>
-#include <coin/sha256.hpp>
-#include <coin/types.hpp>
-#include <coin/utility.hpp>
+#include "big_number.hpp"
+#include "destination.hpp"
+#include "key.hpp"
+#include "key_public.hpp"
+#include "key_store.hpp"
+#include "logger.hpp"
+#include "ripemd160.hpp"
+#include "sha256.hpp"
+#include "types.hpp"
+#include "utility.hpp"
 
 namespace coin {
     

@@ -23,7 +23,7 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/stack.hpp>
+#include "../include/coin/stack.hpp"
 
 int main(int argc, const char * argv[])
 {

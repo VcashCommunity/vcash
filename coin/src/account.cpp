@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/account.hpp>
-#include <coin/constants.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/account.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

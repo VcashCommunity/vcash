@@ -21,7 +21,7 @@
 
 #include <cassert>
 
-#include <coin/ecdhe.hpp>
+#include "../include/coin/ecdhe.hpp"
 
 using namespace coin;
 

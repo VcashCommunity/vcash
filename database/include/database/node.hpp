@@ -28,7 +28,7 @@
 
 #include <boost/asio.hpp>
 
-#include <database/stack.hpp>
+#include "stack.hpp"
 
 namespace database {
 

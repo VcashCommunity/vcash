@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/secret.hpp>
+#include "../include/coin/secret.hpp"
 
 using namespace coin;
 

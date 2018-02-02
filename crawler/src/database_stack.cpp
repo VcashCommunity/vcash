@@ -22,9 +22,9 @@
 #include <stdexcept>
 #include <vector>
 
-#include <crawler/database_stack.hpp>
-#include <crawler/logger.hpp>
-#include <crawler/stack_impl.hpp>
+#include "../include/crawler/database_stack.hpp"
+#include "../include/crawler/logger.hpp"
+#include "../include/crawler/stack_impl.hpp"
 
 using namespace crawler;
 

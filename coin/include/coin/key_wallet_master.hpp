@@ -22,7 +22,7 @@
 #ifndef COIN_WALLET_KEY_MASTER_HPP
 #define COIN_WALLET_KEY_MASTER_HPP
 
-#include <coin/data_buffer.hpp>
+#include "data_buffer.hpp"
 
 namespace coin {
 

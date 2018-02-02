@@ -21,18 +21,18 @@
 
 #include <iomanip>
 
-#include <coin/block.hpp>
-#include <coin/block_index.hpp>
-#include <coin/block_merkle.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/point_out.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/time.hpp>
-#include <coin/transaction_index.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/transaction_position.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/block_index.hpp"
+#include "../include/coin/block_merkle.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/point_out.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/transaction_index.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/transaction_position.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

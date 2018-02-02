@@ -24,10 +24,10 @@
 
 #include <cstdint>
 
-#include <coin/data_buffer.hpp>
-#include <coin/point_out.hpp>
-#include <coin/script.hpp>
-#include <coin/sha256.hpp>
+#include "data_buffer.hpp"
+#include "point_out.hpp"
+#include "script.hpp"
+#include "sha256.hpp"
 
 namespace coin {
     

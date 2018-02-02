@@ -31,10 +31,10 @@
 #include <cassert>
 #include <sstream>
 
-#include <coin/db_env.hpp>
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/utility.hpp"
 
 static void errcall(const DbEnv *, const char * arg1, const char * arg2)
 {

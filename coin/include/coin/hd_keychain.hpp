@@ -25,8 +25,8 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/crypto.hpp>
-#include <coin/utility.hpp>
+#include "crypto.hpp"
+#include "utility.hpp"
 
 namespace coin {
 

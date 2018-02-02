@@ -27,12 +27,12 @@
 #include <mutex>
 #include <vector>
 
-#include <coin/key.hpp>
-#include <coin/point_out.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_in.hpp>
-#include <coin/zerotime_lock.hpp>
-#include <coin/zerotime_vote.hpp>
+#include "key.hpp"
+#include "point_out.hpp"
+#include "sha256.hpp"
+#include "transaction_in.hpp"
+#include "zerotime_lock.hpp"
+#include "zerotime_vote.hpp"
 
 namespace coin {
 

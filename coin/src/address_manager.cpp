@@ -28,21 +28,21 @@
 
 #include <openssl/rand.h>
 
-#include <coin/address_manager.hpp>
-#include <coin/database_stack.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/incentive_answer.hpp>
-#include <coin/incentive_collaterals.hpp>
-#include <coin/filesystem.hpp>
-#include <coin/logger.hpp>
-#include <coin/message.hpp>
-#include <coin/random.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_transport.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/address_manager.hpp"
+#include "../include/coin/database_stack.hpp"
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/incentive_answer.hpp"
+#include "../include/coin/incentive_collaterals.hpp"
+#include "../include/coin/filesystem.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/message.hpp"
+#include "../include/coin/random.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_transport.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

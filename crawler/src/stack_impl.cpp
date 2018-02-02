@@ -21,10 +21,10 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <crawler/database_stack.hpp>
-#include <crawler/probe_manager.hpp>
-#include <crawler/stack.hpp>
-#include <crawler/stack_impl.hpp>
+#include "../include/crawler/database_stack.hpp"
+#include "../include/crawler/probe_manager.hpp"
+#include "../include/crawler/stack.hpp"
+#include "../include/crawler/stack_impl.hpp"
 
 using namespace crawler;
 

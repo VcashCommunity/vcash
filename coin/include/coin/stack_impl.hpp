@@ -33,11 +33,11 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/big_number.hpp>
-#include <coin/configuration.hpp>
-#include <coin/db_wallet.hpp>
-#include <coin/point_out.hpp>
-#include <coin/sha256.hpp>
+#include "big_number.hpp"
+#include "configuration.hpp"
+#include "db_wallet.hpp"
+#include "point_out.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

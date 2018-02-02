@@ -24,7 +24,7 @@
 
 #include <openssl/whrlpool.h>
 
-#include <coin/whirlpool.hpp>
+#include "../include/coin/whirlpool.hpp"
 
 using namespace coin;
 

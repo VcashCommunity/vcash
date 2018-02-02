@@ -26,8 +26,8 @@
 
 #include <boost/asio.hpp>
 
-#include <database/byte_buffer.hpp>
-#include <database/protocol.hpp>
+#include "byte_buffer.hpp"
+#include "protocol.hpp"
 
 namespace database {
     

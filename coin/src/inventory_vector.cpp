@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/data_buffer.hpp>
-#include <coin/db_tx.hpp>
-#include <coin/globals.hpp>
-#include <coin/incentive.hpp>
-#include <coin/inventory_vector.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/zerotime.hpp>
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/db_tx.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/inventory_vector.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/zerotime.hpp"
 
 using namespace coin;
 

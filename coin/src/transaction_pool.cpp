@@ -21,13 +21,13 @@
 
 #include <stdexcept>
 
-#include <coin/constants.hpp>
-#include <coin/logger.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/wallet.hpp>
-#include <coin/wallet_manager.hpp>
-#include <coin/zerotime.hpp>
+#include "../include/coin/constants.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/wallet_manager.hpp"
+#include "../include/coin/zerotime.hpp"
 
 using namespace coin;
 

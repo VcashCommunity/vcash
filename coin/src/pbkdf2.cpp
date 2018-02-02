@@ -21,7 +21,7 @@
 
 #include <cstring>
 
-#include <coin/pbkdf2.hpp>
+#include "../include/coin/pbkdf2.hpp"
 
 namespace coin {
 

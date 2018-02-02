@@ -24,7 +24,7 @@
 
 #include <cstdint>
 
-#include <coin/types.hpp>
+#include "types.hpp"
 
 namespace coin {
 

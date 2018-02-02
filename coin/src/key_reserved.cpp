@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/key_pool.hpp>
-#include <coin/key_reserved.hpp>
-#include <coin/logger.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/key_pool.hpp"
+#include "../include/coin/key_reserved.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

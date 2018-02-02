@@ -21,7 +21,7 @@
 
 #include <cassert>
 
-#include <coin/zerotime_question.hpp>
+#include "../include/coin/zerotime_question.hpp"
 
 using namespace coin;
 

@@ -26,11 +26,11 @@
 
 #include <boost/noncopyable.hpp>
 
-#include <coin/big_number.hpp>
-#include <coin/db.hpp>
-#include <coin/db_tx.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_index.hpp>
+#include "big_number.hpp"
+#include "db.hpp"
+#include "db_tx.hpp"
+#include "sha256.hpp"
+#include "transaction_index.hpp"
 
 namespace coin {
     

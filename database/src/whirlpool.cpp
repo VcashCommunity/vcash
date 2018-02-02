@@ -24,7 +24,7 @@
 
 #include <openssl/whrlpool.h>
 
-#include <database/whirlpool.hpp>
+#include "../include/database/whirlpool.hpp"
 
 using namespace database;
 

@@ -25,7 +25,7 @@
 #include <cstdint>
 #include <string>
 
-#include <coin/big_number.hpp>
+#include "big_number.hpp"
 
 /**
  * Enables GUI related function calls.

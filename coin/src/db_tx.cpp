@@ -19,6 +19,6 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/db_tx.hpp>
+#include "../include/coin/db_tx.hpp"
 
 using namespace coin;

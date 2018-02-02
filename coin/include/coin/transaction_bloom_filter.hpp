@@ -26,8 +26,8 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/point_out.hpp>
-#include <coin/sha256.hpp>
+#include "point_out.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

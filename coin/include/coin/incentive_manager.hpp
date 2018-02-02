@@ -31,9 +31,9 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/address_manager.hpp>
-#include <coin/incentive_vote.hpp>
-#include <coin/output.hpp>
+#include "address_manager.hpp"
+#include "incentive_vote.hpp"
+#include "output.hpp"
 
 namespace coin {
 

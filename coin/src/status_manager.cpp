@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/globals.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
 
 using namespace coin;
 

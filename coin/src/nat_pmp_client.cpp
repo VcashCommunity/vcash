@@ -21,9 +21,9 @@
 
 #include <thread>
 
-#include <coin/gateway.hpp>
-#include <coin/logger.hpp>
-#include <coin/nat_pmp_client.hpp>
+#include "../include/coin/gateway.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/nat_pmp_client.hpp"
 
 using namespace coin;
 

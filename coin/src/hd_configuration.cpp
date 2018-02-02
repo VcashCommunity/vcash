@@ -21,8 +21,8 @@
 
 #include <cassert>
 
-#include <coin/data_buffer.hpp>
-#include <coin/hd_configuration.hpp>
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/hd_configuration.hpp"
 
 using namespace coin;
 

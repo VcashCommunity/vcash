@@ -19,12 +19,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/blake256.hpp>
+#include "../include/coin/blake256.hpp"
 
 #ifdef __cplusplus
 extern "C"{
 #endif
-#include <coin/sph_blake.h>
+#include "../include/coin/sph_blake.h"
 #ifdef __cplusplus
 }
 #endif

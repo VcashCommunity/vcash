@@ -24,7 +24,7 @@
 
 #include <boost/asio.hpp>
 
-#include <crawler/stack.hpp>
+#include "../include/crawler/stack.hpp"
 
 
 int main(int argc, const char * argv[])

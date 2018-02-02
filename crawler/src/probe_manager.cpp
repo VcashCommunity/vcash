@@ -25,11 +25,11 @@
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include <crawler/database_stack.hpp>
-#include <crawler/http_transport.hpp>
-#include <crawler/logger.hpp>
-#include <crawler/probe_manager.hpp>
-#include <crawler/stack_impl.hpp>
+#include "../include/crawler/database_stack.hpp"
+#include "../include/crawler/http_transport.hpp"
+#include "../include/crawler/logger.hpp"
+#include "../include/crawler/probe_manager.hpp"
+#include "../include/crawler/stack_impl.hpp"
 
 using namespace crawler;
 

@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/key_store_basic.hpp>
+#include "../include/coin/key_store_basic.hpp"
 
 using namespace coin;
 

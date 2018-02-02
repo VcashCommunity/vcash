@@ -26,7 +26,7 @@
 #include <string>
 #include <vector>
 
-#include <coin/checkpoint_sync_unsigned.hpp>
+#include "checkpoint_sync_unsigned.hpp"
 
 namespace coin {
 

@@ -23,15 +23,15 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <coin/globals.hpp>
-#include <coin/http_transport.hpp>
-#include <coin/logger.hpp>
-#include <coin/network.hpp>
-#include <coin/protocol.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/rpc_server.hpp>
-#include <coin/tcp_acceptor.hpp>
-#include <coin/rpc_transport.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/http_transport.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/network.hpp"
+#include "../include/coin/protocol.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/rpc_server.hpp"
+#include "../include/coin/tcp_acceptor.hpp"
+#include "../include/coin/rpc_transport.hpp"
 
 using namespace coin;
 

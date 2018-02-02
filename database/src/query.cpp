@@ -24,8 +24,8 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <database/query.hpp>
-#include <database/utility.hpp>
+#include "../include/database/query.hpp"
+#include "../include/database/utility.hpp"
 
 using namespace database;
 

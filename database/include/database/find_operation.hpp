@@ -26,7 +26,7 @@
 #include <mutex>
 #include <set>
 
-#include <database/operation.hpp>
+#include "operation.hpp"
 
 namespace database {
 

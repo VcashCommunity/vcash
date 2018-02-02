@@ -22,22 +22,22 @@
 #include <stdexcept>
 #include <vector>
 
-#include <coin/database_stack.hpp>
-#include <coin/db_tx.hpp>
-#include <coin/incentive.hpp>
-#include <coin/incentive_manager.hpp>
-#include <coin/logger.hpp>
-#include <coin/message.hpp>
-#include <coin/network.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
-#include <coin/time.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/wallet_manager.hpp>
-#include <coin/zerotime.hpp>
-#include <coin/zerotime_lock.hpp>
-#include <coin/zerotime_manager.hpp>
+#include "../include/coin/database_stack.hpp"
+#include "../include/coin/db_tx.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/incentive_manager.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/message.hpp"
+#include "../include/coin/network.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/wallet_manager.hpp"
+#include "../include/coin/zerotime.hpp"
+#include "../include/coin/zerotime_lock.hpp"
+#include "../include/coin/zerotime_manager.hpp"
 
 using namespace coin;
 

@@ -25,9 +25,9 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/ripemd160.hpp>
-#include <coin/sha256.hpp>
-#include <coin/types.hpp>
+#include "ripemd160.hpp"
+#include "sha256.hpp"
+#include "types.hpp"
 
 namespace coin {
 

@@ -25,9 +25,9 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction.hpp>
+#include "data_buffer.hpp"
+#include "sha256.hpp"
+#include "transaction.hpp"
 
 namespace coin {
     

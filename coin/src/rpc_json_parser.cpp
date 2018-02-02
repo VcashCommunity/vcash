@@ -19,6 +19,6 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/rpc_json_parser.hpp>
+#include "../include/coin/rpc_json_parser.hpp"
 
 using namespace coin;

@@ -30,8 +30,8 @@
 
 #include <boost/asio.hpp>
 
-#include <database/message.hpp>
-#include <database/slot.hpp>
+#include "message.hpp"
+#include "slot.hpp"
 
 namespace database {
     

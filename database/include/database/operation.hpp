@@ -31,8 +31,8 @@
 
 #include <boost/asio.hpp>
 
-#include <database/query.hpp>
-#include <database/rpc.hpp>
+#include "query.hpp"
+#include "rpc.hpp"
 
 namespace database {
 

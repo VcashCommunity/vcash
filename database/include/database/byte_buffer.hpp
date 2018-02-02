@@ -31,8 +31,8 @@
 
 #include <boost/crc.hpp>
 
-#include <database/logger.hpp>
-#include <database/utility.hpp>
+#include "logger.hpp"
+#include "utility.hpp"
 
 namespace database {
 

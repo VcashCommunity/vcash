@@ -35,7 +35,7 @@
 #include <boost/asio.hpp>
 
 #if (defined USE_DATABASE_STACK && USE_DATABASE_STACK)
-#include <database/stack.hpp>
+#include "../../../database/include/database/stack.hpp"
 #endif // USE_DATABASE_STACK
 
 namespace crawler {

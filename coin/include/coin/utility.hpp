@@ -36,9 +36,9 @@
 
 #include <boost/algorithm/string/join.hpp>
 
-#include <coin/constants.hpp>
-#include <coin/checkpoints.hpp>
-#include <coin/sha256.hpp>
+#include "constants.hpp"
+#include "checkpoints.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

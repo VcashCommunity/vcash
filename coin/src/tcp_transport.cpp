@@ -26,10 +26,10 @@
 #include <openssl/ssl.h>
 #endif //USE_TLS
 
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/tcp_acceptor.hpp>
-#include <coin/tcp_transport.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/tcp_acceptor.hpp"
+#include "../include/coin/tcp_transport.hpp"
 
 using namespace coin;
 

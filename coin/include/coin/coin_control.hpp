@@ -25,8 +25,8 @@
 #include <cstdint>
 #include <set>
 
-#include <coin/destination.hpp>
-#include <coin/point_out.hpp>
+#include "destination.hpp"
+#include "point_out.hpp"
 
 namespace coin {
 

@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/key_wallet_master.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/key_wallet_master.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

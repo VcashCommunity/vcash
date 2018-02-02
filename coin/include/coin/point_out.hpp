@@ -22,8 +22,8 @@
 #ifndef COIN_POINT_OUT_HPP
 #define COIN_POINT_OUT_HPP
 
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
+#include "data_buffer.hpp"
+#include "sha256.hpp"
 
 namespace coin {
     

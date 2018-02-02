@@ -24,7 +24,7 @@
 
 #include <boost/variant.hpp>
 
-#include <coin/types.hpp>
+#include "types.hpp"
 
 namespace coin {
 

@@ -22,8 +22,8 @@
 #include <openssl/aes.h>
 #include <openssl/evp.h>
 
-#include <coin/crypter.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/crypter.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

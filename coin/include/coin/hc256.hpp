@@ -28,7 +28,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#include <coin/ecrypt-sync.h>
+#include "ecrypt-sync.h"
 #ifdef __cplusplus
 }
 #endif

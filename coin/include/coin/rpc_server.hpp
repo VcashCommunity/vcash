@@ -28,7 +28,7 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/protocol.hpp>
+#include "protocol.hpp"
 
 namespace coin {
 

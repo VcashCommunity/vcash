@@ -22,20 +22,20 @@
 #include <chrono>
 #include <iomanip>
 
-#include <coin/block.hpp>
-#include <coin/globals.hpp>
-#include <coin/incentive.hpp>
-#include <coin/key_reserved.hpp>
-#include <coin/logger.hpp>
-#include <coin/mining.hpp>
-#include <coin/mining_manager.hpp>
-#include <coin/random.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/utility.hpp>
-#include <coin/wallet.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/key_reserved.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/mining.hpp"
+#include "../include/coin/mining_manager.hpp"
+#include "../include/coin/random.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/utility.hpp"
+#include "../include/coin/wallet.hpp"
 
 using namespace coin;
 

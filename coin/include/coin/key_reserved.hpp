@@ -24,7 +24,7 @@
 
 #include <cstdint>
 
-#include <coin/key_public.hpp>
+#include "key_public.hpp"
 
 namespace coin {
 

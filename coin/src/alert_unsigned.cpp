@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/alert_unsigned.hpp>
+#include "../include/coin/alert_unsigned.hpp"
 
 using namespace coin;
 

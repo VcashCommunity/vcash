@@ -21,9 +21,9 @@
 
 #include <iostream>
 
-#include <coin/gateway.hpp>
-#include <coin/logger.hpp>
-#include <coin/upnp_client.hpp>
+#include "../include/coin/gateway.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/upnp_client.hpp"
 
 #if (defined USE_UPNP && USE_UPNP)
 #include <miniupnpc/upnpcommands.h>

@@ -26,11 +26,11 @@
 #include <string>
 #include <vector>
 
-#include <coin/accounting_entry.hpp>
-#include <coin/db.hpp>
-#include <coin/filesystem.hpp>
-#include <coin/key.hpp>
-#include <coin/sha256.hpp>
+#include "accounting_entry.hpp"
+#include "db.hpp"
+#include "filesystem.hpp"
+#include "key.hpp"
+#include "sha256.hpp"
 
 namespace coin {
     

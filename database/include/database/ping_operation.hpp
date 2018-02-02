@@ -26,8 +26,8 @@
 
 #include <boost/asio.hpp>
 
-#include <database/operation.hpp>
-#include <database/storage_node.hpp>
+#include "operation.hpp"
+#include "storage_node.hpp"
 
 namespace database {
 

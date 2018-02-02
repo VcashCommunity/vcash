@@ -23,8 +23,8 @@
 #include <cstdint>
 #include <cstring>
 
-#include <database/hc256.hpp>
-#include <database/logger.hpp>
+#include "../include/database/hc256.hpp"
+#include "../include/database/logger.hpp"
 
 using namespace database;
 

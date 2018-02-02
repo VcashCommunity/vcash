@@ -26,10 +26,10 @@
 
 #include <boost/variant/static_visitor.hpp>
 
-#include <coin/base58.hpp>
-#include <coin/constants.hpp>
-#include <coin/destination.hpp>
-#include <coin/types.hpp>
+#include "base58.hpp"
+#include "constants.hpp"
+#include "destination.hpp"
+#include "types.hpp"
 
 namespace coin {
 

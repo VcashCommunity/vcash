@@ -23,9 +23,9 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <coin/globals.hpp>
-#include <coin/http_transport.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/http_transport.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

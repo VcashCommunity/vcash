@@ -26,8 +26,8 @@
 
 #include <openssl/sha.h>
 
-#include <coin/block.hpp>
-#include <coin/mining.hpp>
+#include "block.hpp"
+#include "mining.hpp"
 
 namespace coin {
 

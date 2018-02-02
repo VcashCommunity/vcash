@@ -31,10 +31,10 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/inventory_vector.hpp>
-#include <coin/protocol.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_bloom_filter.hpp>
+#include "inventory_vector.hpp"
+#include "protocol.hpp"
+#include "sha256.hpp"
+#include "transaction_bloom_filter.hpp"
 
 namespace coin {
     

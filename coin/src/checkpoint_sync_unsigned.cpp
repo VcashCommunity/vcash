@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/checkpoint_sync_unsigned.hpp>
-#include <coin/hash.hpp>
+#include "../include/coin/checkpoint_sync_unsigned.hpp"
+#include "../include/coin/hash.hpp"
 
 using namespace coin;
 

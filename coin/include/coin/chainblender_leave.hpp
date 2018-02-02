@@ -24,8 +24,8 @@
 
 #include <cstdint>
 
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
+#include "data_buffer.hpp"
+#include "sha256.hpp"
 
 namespace coin {
     

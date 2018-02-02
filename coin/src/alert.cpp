@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/alert.hpp>
-#include <coin/constants.hpp>
-#include <coin/hash.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/logger.hpp>
-#include <coin/time.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/alert.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/key_public.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

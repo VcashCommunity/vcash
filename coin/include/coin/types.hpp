@@ -25,7 +25,7 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/ripemd160.hpp>
+#include "ripemd160.hpp"
 
 namespace coin {
 

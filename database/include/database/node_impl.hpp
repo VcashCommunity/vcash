@@ -32,8 +32,8 @@
 
 #include <boost/asio.hpp>
 
-#include <database/stack.hpp>
-#include <database/storage_node.hpp>
+#include "stack.hpp"
+#include "storage_node.hpp"
 
 namespace database {
 

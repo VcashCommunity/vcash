@@ -21,13 +21,13 @@
 
 #include <cassert>
 
-#include <coin/address.hpp>
-#include <coin/hash.hpp>
-#include <coin/incentive.hpp>
-#include <coin/incentive_answer.hpp>
-#include <coin/key.hpp>
-#include <coin/logger.hpp>
-#include <coin/types.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/incentive.hpp"
+#include "../include/coin/incentive_answer.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/types.hpp"
 
 using namespace coin;
 

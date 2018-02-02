@@ -22,27 +22,27 @@
 #include <random>
 #include <sstream>
 
-#include <coin/chainblender.hpp>
-#include <coin/chainblender_broadcast.hpp>
-#include <coin/chainblender_join.hpp>
-#include <coin/chainblender_leave.hpp>
-#include <coin/chainblender_manager.hpp>
-#include <coin/chainblender_status.hpp>
-#include <coin/coin_control.hpp>
-#include <coin/db_tx.hpp>
-#include <coin/globals.hpp>
-#include <coin/hc256.hpp>
-#include <coin/key_reserved.hpp>
-#include <coin/logger.hpp>
-#include <coin/random.hpp>
-#include <coin/script.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/tcp_transport.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/wallet.hpp>
-#include <coin/wallet_manager.hpp>
-#include <coin/whirlpool.hpp>
+#include "../include/coin/chainblender.hpp"
+#include "../include/coin/chainblender_broadcast.hpp"
+#include "../include/coin/chainblender_join.hpp"
+#include "../include/coin/chainblender_leave.hpp"
+#include "../include/coin/chainblender_manager.hpp"
+#include "../include/coin/chainblender_status.hpp"
+#include "../include/coin/coin_control.hpp"
+#include "../include/coin/db_tx.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hc256.hpp"
+#include "../include/coin/key_reserved.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/random.hpp"
+#include "../include/coin/script.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/tcp_transport.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/wallet_manager.hpp"
+#include "../include/coin/whirlpool.hpp"
 
 using namespace coin;
 

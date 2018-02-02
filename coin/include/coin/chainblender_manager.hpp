@@ -29,12 +29,12 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/address_manager.hpp>
-#include <coin/ecdhe.hpp>
-#include <coin/output.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_in.hpp>
+#include "address_manager.hpp"
+#include "ecdhe.hpp"
+#include "output.hpp"
+#include "sha256.hpp"
+#include "transaction.hpp"
+#include "transaction_in.hpp"
 
 namespace coin {
 

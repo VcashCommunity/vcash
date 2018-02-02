@@ -25,9 +25,9 @@
 #include <map>
 #include <set>
 
-#include <coin/key.hpp>
-#include <coin/key_store.hpp>
-#include <coin/types.hpp>
+#include "key.hpp"
+#include "key_store.hpp"
+#include "types.hpp"
 
 namespace coin {
 

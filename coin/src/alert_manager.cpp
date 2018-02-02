@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/alert_manager.hpp>
-#include <coin/globals.hpp>
-#include <coin/stack_impl.hpp>
+#include "../include/coin/alert_manager.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/stack_impl.hpp"
 
 using namespace coin;
 

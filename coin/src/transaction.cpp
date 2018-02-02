@@ -21,18 +21,18 @@
  
 #include <cassert>
 
-#include <coin/block.hpp>
-#include <coin/checkpoints.hpp>
-#include <coin/constants.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/logger.hpp>
-#include <coin/reward.hpp>
-#include <coin/time.hpp>
-#include <coin/transaction.hpp>
-#include <coin/script_checker.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/checkpoints.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/reward.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/transaction.hpp"
+#include "../include/coin/script_checker.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

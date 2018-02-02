@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/nat_pmp.hpp>
+#include "../include/coin/nat_pmp.hpp"
 
 using namespace coin;
 

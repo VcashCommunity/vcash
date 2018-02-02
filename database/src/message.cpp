@@ -22,12 +22,12 @@
 #include <cassert>
 #include <iostream>
 
-#include <database/compression.hpp>
-#include <database/constants.hpp>
-#include <database/hc256.hpp>
-#include <database/logger.hpp>
-#include <database/message.hpp>
-#include <database/protocol.hpp>
+#include "../include/database/compression.hpp"
+#include "../include/database/constants.hpp"
+#include "../include/database/hc256.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/message.hpp"
+#include "../include/database/protocol.hpp"
 
 #if (defined _MSC_VER)
 #undef min

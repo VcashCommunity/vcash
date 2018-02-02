@@ -29,21 +29,21 @@
 #include <mutex>
 #include <set>
 
-#include <coin/address.hpp>
-#include <coin/destination.hpp>
-#include <coin/db_wallet.hpp>
-#include <coin/hd_configuration.hpp>
-#include <coin/hd_keychain.hpp>
-#include <coin/key_public.hpp>
-#include <coin/key_store_crypto.hpp>
-#include <coin/key_wallet_master.hpp>
-#include <coin/output.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_in.hpp>
-#include <coin/transaction_out.hpp>
-#include <coin/transaction_wallet.hpp>
-#include <coin/utility.hpp>
+#include "address.hpp"
+#include "destination.hpp"
+#include "db_wallet.hpp"
+#include "hd_configuration.hpp"
+#include "hd_keychain.hpp"
+#include "key_public.hpp"
+#include "key_store_crypto.hpp"
+#include "key_wallet_master.hpp"
+#include "output.hpp"
+#include "sha256.hpp"
+#include "transaction.hpp"
+#include "transaction_in.hpp"
+#include "transaction_out.hpp"
+#include "transaction_wallet.hpp"
+#include "utility.hpp"
 
 namespace coin {
 

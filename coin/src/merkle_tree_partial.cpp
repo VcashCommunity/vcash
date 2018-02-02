@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/hash.hpp>
-#include <coin/merkle_tree_partial.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/merkle_tree_partial.hpp"
 
 using namespace coin;
 

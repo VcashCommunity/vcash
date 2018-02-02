@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/gateway.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/gateway.hpp"
+#include "../include/coin/logger.hpp"
 
 #if (defined __APPLE__ || __POSIX__ || __MACH__)
 #if (defined __IPHONE_OS_VERSION_MIN_REQUIRED)

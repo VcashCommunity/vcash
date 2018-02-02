@@ -33,7 +33,7 @@
 
 #include <string>
 
-#include <database/logger.hpp>
+#include "logger.hpp"
 
 namespace database {
 

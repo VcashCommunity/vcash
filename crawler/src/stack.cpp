@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <crawler/stack.hpp>
-#include <crawler/stack_impl.hpp>
+#include "../include/crawler/stack.hpp"
+#include "../include/crawler/stack_impl.hpp"
 
 using namespace crawler;
 

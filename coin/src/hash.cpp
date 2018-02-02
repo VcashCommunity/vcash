@@ -25,9 +25,9 @@
 
 #include <openssl/rand.h>
 
-#include <coin/hash.hpp>
-#include <coin/ripemd160.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/hash.hpp"
+#include "../include/coin/ripemd160.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

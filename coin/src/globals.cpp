@@ -22,13 +22,13 @@
 #include <cassert>
 #include <mutex>
 
-#include <coin/block_merkle.hpp>
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/script.hpp>
-#include <coin/transaction.hpp>
-#include <coin/wallet.hpp>
-#include <coin/zerotime.hpp>
+#include "../include/coin/block_merkle.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/script.hpp"
+#include "../include/coin/transaction.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/zerotime.hpp"
 
 using namespace coin;
 

@@ -21,9 +21,9 @@
 
 #include <cmath>
 
-#include <coin/constants.hpp>
-#include <coin/logger.hpp>
-#include <coin/reward.hpp>
+#include "../include/coin/constants.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/reward.hpp"
 
 using namespace coin;
 

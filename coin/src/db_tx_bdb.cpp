@@ -23,21 +23,21 @@
 #include <sstream>
 #include <vector>
 
-#include <coin/block.hpp>
-#include <coin/block_index_disk.hpp>
-#include <coin/checkpoints.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/db_env.hpp>
-#include <coin/db_tx_bdb.hpp>
-#include <coin/globals.hpp>
-#include <coin/kernel.hpp>
-#include <coin/logger.hpp>
-#include <coin/point_out.hpp>
-#include <coin/sha256.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/status_manager.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_pool.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/block_index_disk.hpp"
+#include "../include/coin/checkpoints.hpp"
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/db_tx_bdb.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/kernel.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/point_out.hpp"
+#include "../include/coin/sha256.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/status_manager.hpp"
+#include "../include/coin/transaction.hpp"
+#include "../include/coin/transaction_pool.hpp"
 
 using namespace coin;
 

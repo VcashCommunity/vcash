@@ -25,8 +25,8 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/data_buffer.hpp>
-#include <coin/transaction_position.hpp>
+#include "data_buffer.hpp"
+#include "transaction_position.hpp"
 
 namespace coin {
 

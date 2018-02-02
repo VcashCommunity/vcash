@@ -22,8 +22,8 @@
 #ifndef COIN_ACCOUNT_HPP
 #define COIN_ACCOUNT_HPP
 
-#include <coin/data_buffer.hpp>
-#include <coin/key_public.hpp>
+#include "data_buffer.hpp"
+#include "key_public.hpp"
 
 namespace coin {
 

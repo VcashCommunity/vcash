@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block.hpp>
-#include <coin/block_index.hpp>
-#include <coin/checkpoints.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/block_index.hpp"
+#include "../include/coin/checkpoints.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
 
 using namespace coin;
 

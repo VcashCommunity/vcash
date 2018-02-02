@@ -24,12 +24,12 @@
 #include <stdexcept>
 #include <sstream>
 
-#include <coin/address.hpp>
-#include <coin/base58.hpp>
-#include <coin/big_number.hpp>
-#include <coin/hd_ecdsa.hpp>
-#include <coin/hd_keychain.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/base58.hpp"
+#include "../include/coin/big_number.hpp"
+#include "../include/coin/hd_ecdsa.hpp"
+#include "../include/coin/hd_keychain.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

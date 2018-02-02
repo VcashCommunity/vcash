@@ -24,9 +24,9 @@
 
 #include <cstdint>
 
-#include <coin/key.hpp>
-#include <coin/sha256.hpp>
-#include <coin/types.hpp>
+#include "key.hpp"
+#include "sha256.hpp"
+#include "types.hpp"
 
 namespace coin {
 

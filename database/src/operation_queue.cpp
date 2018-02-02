@@ -19,9 +19,9 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <database/logger.hpp>
-#include <database/message.hpp>
-#include <database/operation_queue.hpp>
+#include "../include/database/logger.hpp"
+#include "../include/database/message.hpp"
+#include "../include/database/operation_queue.hpp"
 
 using namespace database;
 

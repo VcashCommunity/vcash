@@ -30,12 +30,12 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/hash.hpp>
-#include <coin/key_public.hpp>
-#include <coin/logger.hpp>
-#include <coin/protocol.hpp>
-#include <coin/time.hpp>
-#include <coin/transaction_in.hpp>
+#include "hash.hpp"
+#include "key_public.hpp"
+#include "logger.hpp"
+#include "protocol.hpp"
+#include "time.hpp"
+#include "transaction_in.hpp"
 
 namespace coin {
 

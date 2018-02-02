@@ -23,8 +23,8 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <crawler/http_transport.hpp>
-#include <crawler/logger.hpp>
+#include "../include/crawler/http_transport.hpp"
+#include "../include/crawler/logger.hpp"
 
 using namespace crawler;
 

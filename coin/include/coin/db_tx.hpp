@@ -25,9 +25,9 @@
 #define USE_LEVELDB 0
 
 #if (defined USE_LEVELDB && USE_LEVELDB)
-#include <coin/db_tx_ldb.hpp>
+#include "db_tx_ldb.hpp"
 #else
-#include <coin/db_tx_bdb.hpp>
+#include "db_tx_bdb.hpp"
 #endif // USE_LEVELDB
 
 namespace coin {

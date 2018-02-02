@@ -25,10 +25,10 @@
 #include <openssl/ecdsa.h>
 #include <openssl/obj_mac.h>
 
-#include <coin/android.hpp>
-#include <coin/key.hpp>
-#include <coin/key_public.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/android.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/key_public.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 
@@ -779,9 +779,9 @@ void key::set_compressed_public_key()
     m_compressed = true;
 }
 
-#include <coin/address.hpp>
-#include <coin/destination.hpp>
-#include <coin/secret.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/destination.hpp"
+#include "../include/coin/secret.hpp"
 
 int key::run_test()
 {

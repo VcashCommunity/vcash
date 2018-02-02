@@ -25,8 +25,8 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/alert_unsigned.hpp>
-#include <coin/sha256.hpp>
+#include "alert_unsigned.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

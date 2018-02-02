@@ -23,8 +23,8 @@
 #include <cstdint>
 #include <cstdlib>
 
-#include <database/compression.hpp>
-#include <database/logger.hpp>
+#include "../include/database/compression.hpp"
+#include "../include/database/logger.hpp"
 
 using namespace database;
 

@@ -21,10 +21,10 @@
 
 #include <random>
 
-#include <database/message.hpp>
-#include <database/node_impl.hpp>
-#include <database/broadcast_operation.hpp>
-#include <database/udp_multiplexor.hpp>
+#include "../include/database/message.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/broadcast_operation.hpp"
+#include "../include/database/udp_multiplexor.hpp"
 
 using namespace database;
 

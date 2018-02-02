@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/chainblender_join.hpp>
-#include <coin/logger.hpp>
+#include "../include/coin/chainblender_join.hpp"
+#include "../include/coin/logger.hpp"
 
 using namespace coin;
 

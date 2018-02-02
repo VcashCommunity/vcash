@@ -32,7 +32,7 @@
 
 #include <stdexcept>
 
-#include <coin/file.hpp>
+#include "../include/coin/file.hpp"
 
 using namespace coin;
 

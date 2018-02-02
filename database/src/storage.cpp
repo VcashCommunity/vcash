@@ -23,11 +23,11 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <database/entry.hpp>
-#include <database/logger.hpp>
-#include <database/query.hpp>
-#include <database/storage.hpp>
-#include <database/utility.hpp>
+#include "../include/database/entry.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/query.hpp"
+#include "../include/database/storage.hpp"
+#include "../include/database/utility.hpp"
 
 using namespace database;
 

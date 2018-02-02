@@ -19,7 +19,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
  
-#include <coin/transaction_out.hpp>
+#include "../include/coin/transaction_out.hpp"
 
 using namespace coin;
 

@@ -21,15 +21,15 @@
 
 #include <cassert>
 
-#include <coin/address.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/key.hpp>
-#include <coin/logger.hpp>
-#include <coin/types.hpp>
-#include <coin/wallet.hpp>
-#include <coin/zerotime.hpp>
-#include <coin/zerotime_vote.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/key.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/types.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/zerotime.hpp"
+#include "../include/coin/zerotime_vote.hpp"
 
 using namespace coin;
 

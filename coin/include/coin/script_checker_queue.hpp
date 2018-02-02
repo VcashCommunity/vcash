@@ -30,7 +30,7 @@
 #include <thread>
 #include <vector>
 
-#include <coin/script_checker.hpp>
+#include "script_checker.hpp"
 
 namespace coin {
 

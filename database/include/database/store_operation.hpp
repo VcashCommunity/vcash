@@ -25,7 +25,7 @@
 #include <cstdint>
 #include <vector>
 
-#include <database/operation.hpp>
+#include "operation.hpp"
 
 namespace database {
 ;

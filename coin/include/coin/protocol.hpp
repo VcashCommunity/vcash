@@ -29,9 +29,9 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/hash.hpp>
-#include <coin/inventory_vector.hpp>
-#include <coin/sha256.hpp>
+#include "hash.hpp"
+#include "inventory_vector.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

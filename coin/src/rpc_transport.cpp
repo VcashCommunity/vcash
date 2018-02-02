@@ -19,15 +19,15 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/rpc_transport.hpp>
+#include "../include/coin/rpc_transport.hpp"
 
 using namespace coin;
 
 #include <sstream>
 
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/rpc_transport.hpp>
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/rpc_transport.hpp"
 
 using namespace coin;
 

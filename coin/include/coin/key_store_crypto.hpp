@@ -27,9 +27,9 @@
 #include <mutex>
 #include <vector>
 
-#include <coin/key_public.hpp>
-#include <coin/key_store_basic.hpp>
-#include <coin/types.hpp>
+#include "key_public.hpp"
+#include "key_store_basic.hpp"
+#include "types.hpp"
 
 namespace coin {
 

@@ -22,9 +22,9 @@
 #ifndef coin_block_index_disk_hpp
 #define coin_block_index_disk_hpp
 
-#include <coin/block_index.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/sha256.hpp>
+#include "block_index.hpp"
+#include "data_buffer.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

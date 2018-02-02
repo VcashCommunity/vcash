@@ -19,14 +19,14 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/big_number.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/globals.hpp>
-#include <coin/hash.hpp>
-#include <coin/key_reserved.hpp>
-#include <coin/logger.hpp>
-#include <coin/mining.hpp>
-#include <coin/sha256.hpp>
+#include "../include/coin/big_number.hpp"
+#include "../include/coin/data_buffer.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/key_reserved.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/mining.hpp"
+#include "../include/coin/sha256.hpp"
 
 using namespace coin;
 

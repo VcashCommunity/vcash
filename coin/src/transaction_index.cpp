@@ -19,11 +19,11 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block.hpp>
-#include <coin/constants.hpp>
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/transaction_index.hpp>
+#include "../include/coin/block.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/transaction_index.hpp"
 
 using namespace coin;
 

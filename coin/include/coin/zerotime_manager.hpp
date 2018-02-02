@@ -31,12 +31,12 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/constants.hpp>
-#include <coin/sha256.hpp>
-#include <coin/transaction_in.hpp>
-#include <coin/zerotime_answer.hpp>
-#include <coin/zerotime_question.hpp>
-#include <coin/zerotime_vote.hpp>
+#include "constants.hpp"
+#include "sha256.hpp"
+#include "transaction_in.hpp"
+#include "zerotime_answer.hpp"
+#include "zerotime_question.hpp"
+#include "zerotime_vote.hpp"
 
 namespace coin {
 

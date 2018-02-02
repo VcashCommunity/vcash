@@ -21,8 +21,8 @@
 
 #include <algorithm>
 
-#include <coin/logger.hpp>
-#include <coin/script_checker_queue.hpp>
+#include "../include/coin/logger.hpp"
+#include "../include/coin/script_checker_queue.hpp"
 
 using namespace coin;
 

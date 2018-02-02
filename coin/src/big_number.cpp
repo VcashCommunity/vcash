@@ -19,8 +19,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/big_number.hpp>
-#include <coin/data_buffer.hpp>
+#include "../include/coin/big_number.hpp"
+#include "../include/coin/data_buffer.hpp"
 
 using namespace coin;
 

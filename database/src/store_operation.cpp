@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <database/block.hpp>
-#include <database/constants.hpp>
-#include <database/logger.hpp>
-#include <database/message.hpp>
-#include <database/node_impl.hpp>
-#include <database/slot.hpp>
-#include <database/store_operation.hpp>
+#include "../include/database/block.hpp"
+#include "../include/database/constants.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/message.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/slot.hpp"
+#include "../include/database/store_operation.hpp"
 
 using namespace database;
 

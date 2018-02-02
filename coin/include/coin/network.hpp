@@ -30,7 +30,7 @@
 #include <set>
 #include <string>
 
-#include <coin/logger.hpp>
+#include "logger.hpp"
 
 namespace coin {
 

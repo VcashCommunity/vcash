@@ -30,10 +30,10 @@
 
 #include <thread>
 
-#include <coin/db.hpp>
-#include <coin/db_env.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/db.hpp"
+#include "../include/coin/db_env.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

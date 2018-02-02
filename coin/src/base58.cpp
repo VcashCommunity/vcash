@@ -25,11 +25,11 @@
 #include <stdexcept>
 #include <string>
 
-#include <coin/base58.hpp>
-#include <coin/big_number.hpp>
-#include <coin/hash.hpp>
-#include <coin/logger.hpp>
-#include <coin/sha256.hpp>
+#include "../include/coin/base58.hpp"
+#include "../include/coin/big_number.hpp"
+#include "../include/coin/hash.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/sha256.hpp"
 
 using namespace coin;
 

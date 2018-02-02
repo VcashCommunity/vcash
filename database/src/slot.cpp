@@ -23,12 +23,12 @@
 #include <chrono>
 #include <iostream>
 
-#include <database/block.hpp>
-#include <database/logger.hpp>
-#include <database/node_impl.hpp>
-#include <database/routing_table.hpp>
-#include <database/slot.hpp>
-#include <database/utility.hpp>
+#include "../include/database/block.hpp"
+#include "../include/database/logger.hpp"
+#include "../include/database/node_impl.hpp"
+#include "../include/database/routing_table.hpp"
+#include "../include/database/slot.hpp"
+#include "../include/database/utility.hpp"
 
 using namespace database;
 

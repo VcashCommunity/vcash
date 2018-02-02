@@ -44,7 +44,7 @@
 
 #include <mutex>
 
-#include <coin/filesystem.hpp>
+#include "filesystem.hpp"
 
 namespace coin {
 

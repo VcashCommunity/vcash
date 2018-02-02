@@ -19,12 +19,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/network.hpp>
-#include <coin/rpc_connection.hpp>
-#include <coin/rpc_manager.hpp>
-#include <coin/rpc_server.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/rpc_transport.hpp>
+#include "../include/coin/network.hpp"
+#include "../include/coin/rpc_connection.hpp"
+#include "../include/coin/rpc_manager.hpp"
+#include "../include/coin/rpc_server.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/rpc_transport.hpp"
 
 using namespace coin;
 

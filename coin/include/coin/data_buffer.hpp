@@ -35,11 +35,11 @@
 #include <boost/asio.hpp>
 #include <boost/crc.hpp>
 
-#include <coin/android.hpp>
-#include <coin/endian.hpp>
-#include <coin/file.hpp>
-#include <coin/protocol.hpp>
-#include <coin/sha256.hpp>
+#include "android.hpp"
+#include "endian.hpp"
+#include "file.hpp"
+#include "protocol.hpp"
+#include "sha256.hpp"
 
 namespace coin {
     

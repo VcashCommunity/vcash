@@ -21,23 +21,23 @@
 
 #include <cassert>
 
-#include <coin/address.hpp>
-#include <coin/address_manager.hpp>
-#include <coin/database_stack.hpp>
-#include <coin/globals.hpp>
-#include <coin/inventory_vector.hpp>
-#include <coin/message.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/tcp_transport.hpp>
-#include <coin/tcp_transport.hpp>
-#include <coin/utility.hpp>
-#include <coin/wallet.hpp>
-#include <coin/wallet_manager.hpp>
-#include <coin/zerotime.hpp>
-#include <coin/zerotime_manager.hpp>
-#include <coin/zerotime_vote.hpp>
+#include "../include/coin/address.hpp"
+#include "../include/coin/address_manager.hpp"
+#include "../include/coin/database_stack.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/inventory_vector.hpp"
+#include "../include/coin/message.hpp"
+#include "../include/coin/stack_impl.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/tcp_transport.hpp"
+#include "../include/coin/tcp_transport.hpp"
+#include "../include/coin/utility.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/wallet_manager.hpp"
+#include "../include/coin/zerotime.hpp"
+#include "../include/coin/zerotime_manager.hpp"
+#include "../include/coin/zerotime_vote.hpp"
 
 using namespace coin;
 

@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/chainblender.hpp>
-#include <coin/constants.hpp>
-#include <coin/globals.hpp>
-#include <coin/utility.hpp>
+#include "../include/coin/chainblender.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/utility.hpp"
 
 using namespace coin;
 

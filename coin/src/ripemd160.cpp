@@ -24,7 +24,7 @@
 
 #include <openssl/ripemd.h>
 
-#include <coin/ripemd160.hpp>
+#include "../include/coin/ripemd160.hpp"
 
 using namespace coin;
 

@@ -19,13 +19,13 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/address_manager.hpp>
-#include <coin/configuration.hpp>
-#include <coin/constants.hpp>
-#include <coin/logger.hpp>
-#include <coin/protocol.hpp>
-#include <coin/stack.hpp>
-#include <coin/stack_impl.hpp>
+#include "../include/coin/address_manager.hpp"
+#include "../include/coin/configuration.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/logger.hpp"
+#include "../include/coin/protocol.hpp"
+#include "../include/coin/stack.hpp"
+#include "../include/coin/stack_impl.hpp"
 
 using namespace coin;
 

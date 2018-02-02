@@ -30,13 +30,13 @@
 
 #include <boost/asio.hpp>
 
-#include <coin/block_index.hpp>
-#include <coin/constants.hpp>
-#include <coin/inventory_vector.hpp>
-#include <coin/median_filter.hpp>
-#include <coin/point_out.hpp>
-#include <coin/protocol.hpp>
-#include <coin/sha256.hpp>
+#include "block_index.hpp"
+#include "constants.hpp"
+#include "inventory_vector.hpp"
+#include "median_filter.hpp"
+#include "point_out.hpp"
+#include "protocol.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

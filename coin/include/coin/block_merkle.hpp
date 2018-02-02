@@ -25,11 +25,11 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/block.hpp>
-#include <coin/transaction_bloom_filter.hpp>
-#include <coin/data_buffer.hpp>
-#include <coin/merkle_tree_partial.hpp>
-#include <coin/sha256.hpp>
+#include "block.hpp"
+#include "transaction_bloom_filter.hpp"
+#include "data_buffer.hpp"
+#include "merkle_tree_partial.hpp"
+#include "sha256.hpp"
 
 namespace coin {
 

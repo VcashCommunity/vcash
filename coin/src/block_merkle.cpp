@@ -19,10 +19,10 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <coin/block_merkle.hpp>
-#include <coin/constants.hpp>
-#include <coin/time.hpp>
-#include <coin/transaction.hpp>
+#include "../include/coin/block_merkle.hpp"
+#include "../include/coin/constants.hpp"
+#include "../include/coin/time.hpp"
+#include "../include/coin/transaction.hpp"
 
 using namespace coin;
 

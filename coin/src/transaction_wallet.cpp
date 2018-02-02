@@ -21,18 +21,18 @@
 
 #include <boost/lexical_cast.hpp>
 
-#include <coin/chainblender.hpp>
-#include <coin/db_wallet.hpp>
-#include <coin/globals.hpp>
-#include <coin/message.hpp>
-#include <coin/database_stack.hpp>
-#include <coin/tcp_connection.hpp>
-#include <coin/tcp_connection_manager.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/transaction_wallet.hpp>
-#include <coin/wallet.hpp>
-#include <coin/zerotime.hpp>
-#include <coin/zerotime_lock.hpp>
+#include "../include/coin/chainblender.hpp"
+#include "../include/coin/db_wallet.hpp"
+#include "../include/coin/globals.hpp"
+#include "../include/coin/message.hpp"
+#include "../include/coin/database_stack.hpp"
+#include "../include/coin/tcp_connection.hpp"
+#include "../include/coin/tcp_connection_manager.hpp"
+#include "../include/coin/transaction_pool.hpp"
+#include "../include/coin/transaction_wallet.hpp"
+#include "../include/coin/wallet.hpp"
+#include "../include/coin/zerotime.hpp"
+#include "../include/coin/zerotime_lock.hpp"
 
 using namespace coin;
 

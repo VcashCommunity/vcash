@@ -25,15 +25,15 @@
 #include <cstdint>
 #include <vector>
 
-#include <coin/block.hpp>
-#include <coin/configuration.hpp>
-#include <coin/globals.hpp>
-#include <coin/logger.hpp>
-#include <coin/stack_impl.hpp>
-#include <coin/transaction.hpp>
-#include <coin/transaction_index.hpp>
-#include <coin/transaction_pool.hpp>
-#include <coin/zerotime.hpp>
+#include "block.hpp"
+#include "configuration.hpp"
+#include "globals.hpp"
+#include "logger.hpp"
+#include "stack_impl.hpp"
+#include "transaction.hpp"
+#include "transaction_index.hpp"
+#include "transaction_pool.hpp"
+#include "zerotime.hpp"
 
 namespace coin {
 

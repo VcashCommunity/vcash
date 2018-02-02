@@ -22,7 +22,7 @@
 #include <cassert>
 #include <memory>
 
-#include <coin/address.hpp>
+#include "../include/coin/address.hpp"
 
 using namespace coin;
 

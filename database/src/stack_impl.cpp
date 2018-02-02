@@ -24,11 +24,11 @@
 
 #include <boost/algorithm/string.hpp>
 
-#include <database/logger.hpp>
-#include <database/node.hpp>
-#include <database/stack.hpp>
-#include <database/stack_impl.hpp>
-#include <database/utility.hpp>
+#include "../include/database/logger.hpp"
+#include "../include/database/node.hpp"
+#include "../include/database/stack.hpp"
+#include "../include/database/stack_impl.hpp"
+#include "../include/database/utility.hpp"
 
 using namespace database;
 

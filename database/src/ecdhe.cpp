@@ -21,7 +21,7 @@
 
 #include <cassert>
 
-#include <database/ecdhe.hpp>
+#include "../include/database/ecdhe.hpp"
 
 using namespace database;
 
