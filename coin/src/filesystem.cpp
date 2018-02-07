@@ -65,14 +65,6 @@ DIR * opendir(const char *name)
 {
     DIR * dir = 0;
 
-    auto free_and_exit = []() {
-        free(dir->name);
-        free(dir);
-        // Return a new DIR that hasn't been manually allocated
-        DIR * newdir = 0;
-        return newdir;
-    };
-
     if (name && name[0])
     {
         auto base_length = strlen(name);
@@ -95,13 +87,21 @@ DIR * opendir(const char *name)
             }
             else
             {
-                return free_and_exit();
+                free(dir->name);
+                free(dir);
+                // Return a new DIR that hasn't been manually allocated
+                DIR * newdir = 0;
+                return newdir;
             }
         }
         else
         {
             errno = ENOMEM;
-            return free_and_exit();
+            free(dir->name);
+            free(dir);
+            // Return a new DIR that hasn't been manually allocated
+            DIR * newdir = 0;
+            return newdir;
         }
     }
     else
