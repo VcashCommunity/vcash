@@ -47,7 +47,7 @@ void stack::start(const std::map<std::string, std::string> & args)
          * Allocate the stack implementation.
          */
         stack_impl_ = new stack_impl(*this);
-        
+
         /**
          * Set the arguments.
          */
@@ -86,7 +86,7 @@ void stack::start(const std::map<std::string, std::string> & args)
                 std::make_pair("64.52.86.142", 51167)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("64.52.23.21", 45542)
+                std::make_pair("64.190.205.150", 59878)
             );
         }
 
@@ -105,7 +105,7 @@ void stack::stop()
          * Stop the stack implementation.
          */
         stack_impl_->stop();
-        
+
         /**
          * Deallocate the stack implementation.
          */
@@ -221,7 +221,7 @@ bool stack::wallet_is_crypted(const std::uint32_t & wallet_id)
     {
         throw std::runtime_error("Stack is not allocated");
     }
-    
+
     return false;
 }
 
@@ -235,7 +235,7 @@ bool stack::wallet_is_locked(const std::uint32_t & wallet_id)
     {
         throw std::runtime_error("Stack is not allocated");
     }
-    
+
     return false;
 }
 
@@ -261,7 +261,7 @@ std::string stack::wallet_hd_keychain_seed()
     {
         throw std::runtime_error("Stack is not allocated");
     }
-    
+
     return std::string();
 }
 
@@ -364,7 +364,7 @@ const bool stack::configuration_chainblender_use_common_output_denominations() c
     {
         throw std::runtime_error("Stack is not allocated");
     }
-    
+
     return false;
 }
 
@@ -379,7 +379,7 @@ const std::time_t
     {
         throw std::runtime_error("Stack is not allocated");
     }
-    
+
     return 0;
 }
 

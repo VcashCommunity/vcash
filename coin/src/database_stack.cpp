@@ -63,24 +63,24 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
     if (constants::test_net == false)
     {
         database::stack::configuration stack_config;
-        
+
         /**
          * The bootstrap contacts.
          */
         std::vector< std::pair<std::string, std::uint16_t> > contacts;
-        
+
         /**
          * Add the hard-coded bootstrap contacts.
          */
-    contacts.push_back(std::make_pair("n00.vanilla.cash", 45542));
+    contacts.push_back(std::make_pair("n00.vanilla.cash", 59878));
     contacts.push_back(std::make_pair("n01.vanilla.cash", 51167));
     contacts.push_back(std::make_pair("n02.vanilla.cash", 51280));
-        
+
         /**
          * Set the port.
          */
         stack_config.set_port(port);
-        
+
         /**
          * Set the operation mode.
          */
@@ -88,12 +88,12 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
             is_client ? database::stack::configuration::operation_mode_interface :
             database::stack::configuration::operation_mode_storage
         );
-        
+
         /**
          * Start the database::stack.
          */
         database::stack::start(stack_config);
-        
+
         /**
          * Join the database::stack.
          */
@@ -102,7 +102,7 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
 #endif // USE_DATABASE_STACK
 
     auto self(shared_from_this());
-    
+
     /**
      * Start the timer.
      */
@@ -111,7 +111,7 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
         std::bind(&database_stack::tick, self,
         std::placeholders::_1))
     );
-    
+
     state_ = state_started;
 }
 
@@ -170,17 +170,17 @@ std::pair<std::uint16_t, std::vector<std::string> >
     )
 {
     std::pair<std::uint16_t, std::vector<std::string> > ret;
-    
+
     auto it = find_results_.find(transaction_id);
-    
+
     if (it != find_results_.end())
     {
         ret.first = it->first;
         ret.second = it->second;
-    
+
         find_results_.erase(it);
     }
-    
+
     return ret;
 }
 
@@ -211,12 +211,12 @@ void database_stack::on_broadcast(
     boost::asio::ip::tcp::endpoint ep(
         boost::asio::ip::address::from_string(addr), port
     );
-    
+
     /**
      * Allocate the buffer.
      */
     data_buffer buffer(buf, len);
-    
+
     /**
      * Post the operation onto the boost::asio::io_service.
      */
@@ -233,7 +233,7 @@ void database_stack::on_broadcast(
              * dropped for rate limiting purposes.
              */
             std::lock_guard<std::mutex> l1(mutex_packet_times_);
-            
+
             if (packet_times_.count(ep.address().to_string()) > 0)
             {
                 if (std::time(0) - packet_times_[ep.address().to_string()] < 8)
@@ -242,7 +242,7 @@ void database_stack::on_broadcast(
                         "Database stack (UDP) is dropping packet received too "
                         "soon."
                     );
-                    
+
                     return;
                 }
             }
@@ -251,13 +251,13 @@ void database_stack::on_broadcast(
              * Set the time this packet arrived from the address.
              */
             packet_times_[ep.address().to_string()] = std::time(0);
-            
+
             enum { max_udp_length = 2048 };
-            
+
             log_debug(
                 "Database stack (UDP) got len = " << buffer.size() << "."
             );
-            
+
             if (buffer.size() <= max_udp_length)
             {
                 /**
@@ -271,7 +271,7 @@ void database_stack::on_broadcast(
                      * Decode the message.
                      */
                     msg.decode();
-                    
+
                     log_debug(
                         "Database stack (UDP) got " << msg.header().command <<
                         " from " << ep << "."
@@ -283,30 +283,30 @@ void database_stack::on_broadcast(
                         "Database stack (UDP) failed to decode message, "
                         "what = " << e.what() << "."
                     );
-                    
+
                     return;
                 }
-                
+
                 if (msg.header().command == "tx")
                 {
                     const auto & tx = msg.protocol_tx().tx;
-                    
+
                     if (tx)
                     {
                         db_tx txdb("r");
-                        
+
                         auto missing_inputs = false;
-                        
+
                         /**
                          * Allocate the data_buffer.
                          */
                         data_buffer buffer;
-                        
+
                         /**
                          * Encode the transaction.
                          */
                         tx->encode(buffer);
-                        
+
                         if (
                             tx->accept_to_transaction_pool(txdb,
                             &missing_inputs).first
@@ -318,7 +318,7 @@ void database_stack::on_broadcast(
                             wallet_manager::instance().sync_with_wallets(
                                 *tx, 0, true
                             );
-                            
+
                             if (
                                 globals::instance().operation_mode() ==
                                 protocol::operation_mode_peer
@@ -337,7 +337,7 @@ void database_stack::on_broadcast(
                                     "message, command = " << inv.command() <<
                                     "."
                                 );
-                                
+
                                 /**
                                  * Allocate the message.
                                  */
@@ -396,7 +396,7 @@ void database_stack::on_broadcast(
                                     transaction_pool::instance().transactions(
                                     ).count(ztlock->hash_tx()) == 0
                                 ;
-                            
+
                                 if (hash_not_found)
                                 {
                                     log_info(
@@ -445,19 +445,19 @@ void database_stack::on_broadcast(
                                              * relaying.
                                              */
                                             data_buffer buffer;
-                                        
+
                                             /**
                                              * Encode the zerotime_lock.
                                              */
                                             ztlock->encode(buffer);
-                                            
+
                                             log_info(
                                                 "Database stack (UDP) is "
                                                 "relaying inv message, "
                                                 "command = " <<
                                                 inv.command() << "."
                                             );
-                                            
+
                                             /**
                                              * Allocate the message.
                                              */
@@ -477,13 +477,13 @@ void database_stack::on_broadcast(
                                                 msg.data(), msg.size()
                                             );
                                         }
-                                    
+
                                         log_info(
                                             "Database stack (UDP) is adding "
                                             "ZeroTime lock " <<
                                             ztlock->hash_tx().to_string() << "."
                                         );
-                                        
+
                                         /**
                                          * Insert the zerotime_lock.
                                          */
@@ -491,7 +491,7 @@ void database_stack::on_broadcast(
                                             std::make_pair(ztlock->hash_tx(),
                                             *ztlock)
                                         );
-                                        
+
                                         /**
                                          * Lock the inputs.
                                          */
@@ -542,7 +542,7 @@ void database_stack::on_broadcast(
                                 zerotime::instance().votes()[
                                     ztvote->hash_nonce()] = *ztvote
                                 ;
-                                
+
                                 /**
                                  * Inform the zerotime_manager.
                                  */
@@ -559,19 +559,19 @@ void database_stack::on_broadcast(
                                      * Allocate the data_buffer.
                                      */
                                     data_buffer buffer;
-                                    
+
                                     /**
                                      * Encode the transaction (reuse the
                                      * signature).
                                      */
                                     ztvote->encode(buffer, true);
-                            
+
                                     log_info(
                                         "Database stack (UDP) is relaying inv "
                                         "message, command = " <<
                                         inv.command() << "."
                                     );
-                                    
+
                                     /**
                                      * Allocate the message.
                                      */
@@ -601,7 +601,7 @@ void database_stack::on_broadcast(
                         if (utility::is_initial_block_download() == false)
                         {
                             const auto & ivote = msg.protocol_ivote().ivote;
-                            
+
                             if (ivote)
                             {
                                 /**
@@ -631,7 +631,7 @@ void database_stack::on_broadcast(
                                             "invalid ivote, score = " <<
                                             ivote->score() << "."
                                         );
-                                    
+
                                         return;
                                     }
                                     else if (
@@ -643,17 +643,17 @@ void database_stack::on_broadcast(
                                             "Database stack (UDP) is dropping "
                                             "ivote invalid collateral."
                                         );
-                                        
+
                                         return;
                                     }
-                                    
+
                                     /**
                                      * Get the best block_index.
                                      */
                                     auto index_previous =
                                         stack_impl::get_block_index_best()
                                     ;
-                                    
+
                                     /**
                                      * Get the next block height
                                      */
@@ -661,7 +661,7 @@ void database_stack::on_broadcast(
                                         index_previous ?
                                         index_previous->height() + 1 : 0
                                     ;
-            
+
                                     /**
                                      * Check that the block height is close to
                                      * ours (within one blocks).
@@ -681,17 +681,17 @@ void database_stack::on_broadcast(
                                             height) -
                                             (ivote->block_height() + 2) << "."
                                         );
-                                        
+
                                         return;
                                     }
-            
+
                                     /**
                                      * Insert the incentive_vote.
                                      */
                                     incentive::instance().votes()[
                                         ivote->hash_nonce()] = *ivote
                                     ;
-                                    
+
                                     /**
                                      * Inform the incentive_manager.
                                      */
@@ -708,19 +708,19 @@ void database_stack::on_broadcast(
                                          * Allocate the data_buffer.
                                          */
                                         data_buffer buffer;
-                                        
+
                                         /**
                                          * Encode the transaction (reuse the
                                          * signature).
                                          */
                                         ivote->encode(buffer, true);
-                                        
+
                                         log_info(
                                             "Database stack (UDP) is relaying "
                                             "inv message, command = " <<
                                             inv.command() << "."
                                         );
-                                        
+
                                         /**
                                          * Allocate the message.
                                          */
@@ -758,16 +758,16 @@ void database_stack::tick(const boost::system::error_code & ec)
     else
     {
         auto self(shared_from_this());
-        
+
         /**
          * If we have not received a packet within eight seconds from an
          * address erase it from the packet times.
          */
-        
+
         std::lock_guard<std::mutex> l1(mutex_packet_times_);
-        
+
         auto it = packet_times_.begin();
-        
+
         while (it != packet_times_.end())
         {
             if (std::time(0) - it->second >= 8)
@@ -779,7 +779,7 @@ void database_stack::tick(const boost::system::error_code & ec)
                 ++it;
             }
         }
-        
+
         /**
          * Get the number of udp endpoints in the routing table.
          */
@@ -788,33 +788,33 @@ void database_stack::tick(const boost::system::error_code & ec)
 #else
         auto udp_connections = 0;
 #endif // USE_DATABASE_STACK
-        
+
         log_info(
             "Database stack has " << udp_connections << " UDP connections."
         );
-        
+
         /**
          * Allocate the status.
          */
         std::map<std::string, std::string> status;
-        
+
         /**
          * Set the status message.
          */
         status["type"] = "network";
-        
+
         /**
          * Set the value.
          */
         status["value"] = udp_connections > 0 ? "Connected" : "Connecting";
-        
+
         /**
          * Set the network.udp.connections.
          */
         status["network.udp.connections"] = std::to_string(
             udp_connections
         );
-        
+
         /**
          * Callback status.
          */

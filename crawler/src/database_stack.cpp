@@ -44,24 +44,24 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
 {
 #if (defined USE_DATABASE_STACK && USE_DATABASE_STACK)
     database::stack::configuration stack_config;
-    
+
     /**
      * The bootstrap contacts.
      */
     std::vector< std::pair<std::string, std::uint16_t> > contacts;
-    
+
     /**
      * Add the hard-coded bootstrap contacts.
      */
-    contacts.push_back(std::make_pair("n00.vanilla.cash", 45542));
+    contacts.push_back(std::make_pair("n00.vanilla.cash", 59878));
     contacts.push_back(std::make_pair("n01.vanilla.cash", 51167));
     contacts.push_back(std::make_pair("n02.vanilla.cash", 51280));
-    
+
     /**
      * Set the port.
      */
     stack_config.set_port(port);
-    
+
     /**
      * Set the operation mode.
      */
@@ -69,12 +69,12 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
         is_client ? database::stack::configuration::operation_mode_interface :
         database::stack::configuration::operation_mode_storage
     );
-    
+
     /**
      * Start the database::stack.
      */
     database::stack::start(stack_config);
-    
+
     /**
      * Join the database::stack.
      */
@@ -82,7 +82,7 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
 #endif // USE_DATABASE_STACK
 
     auto self(shared_from_this());
-    
+
     /**
      * Start the timer.
      */
@@ -156,7 +156,7 @@ void database_stack::tick(const boost::system::error_code & ec)
     else
     {
         auto self(shared_from_this());
-        
+
         /**
          * Get the number of udp endpoints in the routing table.
          */
@@ -165,7 +165,7 @@ void database_stack::tick(const boost::system::error_code & ec)
 #else
         auto udp_connections = 0;
 #endif // USE_DATABASE_STACK
-        
+
         log_info(
             "Database stack has " << udp_connections << " UDP connections."
         );
