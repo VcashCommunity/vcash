@@ -171,7 +171,7 @@ void stack_impl::start()
     /**
      * @note Do not enable.
      */
-#if 0
+
     /**
      * Force blockchain pruning for testing.
      */
@@ -184,7 +184,7 @@ void stack_impl::start()
          */
         prune_old_blocks();
     }
-#endif
+
     
     if (
         m_configuration.network_port_tcp() == protocol::default_tcp_port
