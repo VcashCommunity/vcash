@@ -65,28 +65,49 @@ void stack::start(const std::map<std::string, std::string> & args)
         else
         {
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("86.5.209.208", 60043)
+                std::make_pair("64.52.86.172", 39820)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("104.236.230.134", 37115)
+                std::make_pair("120.131.0.110", 39879)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("137.135.51.197", 1024)
+                std::make_pair("120.131.2.129", 39879)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
                 std::make_pair("139.6.3.101", 41086)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("172.110.10.240", 58663)
+                std::make_pair("139.6.3.156", 41086)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("45.76.173.133", 51280)
+                std::make_pair("163.172.222.231", 46374)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("64.52.86.142", 51167)
+                std::make_pair("173.56.226.130", 57262)
             );
             stack_impl_->get_configuration().bootstrap_nodes().push_back(
-                std::make_pair("64.190.205.150", 59878)
+                std::make_pair("188.175.170.124", 49162)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("188.24.159.138", 56364)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("207.180.216.126", 46813)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("46.101.229.155", 50240)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("94.130.23.164", 9096)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("78.46.75.182", 9096)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("139.6.3.152", 56134)
+            );
+            stack_impl_->get_configuration().bootstrap_nodes().push_back(
+                std::make_pair("139.6.3.151", 49097)
             );
         }
 
@@ -281,7 +302,7 @@ void stack::chainblender_start()
 {
     if (stack_impl_)
     {
-        stack_impl_->chainblender_stop();
+        stack_impl_->chainblender_start();
     }
     else
     {

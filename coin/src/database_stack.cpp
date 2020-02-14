@@ -72,9 +72,7 @@ void database_stack::start(const std::uint16_t & port, const bool & is_client)
         /**
          * Add the hard-coded bootstrap contacts.
          */
-    contacts.push_back(std::make_pair("n00.vanilla.cash", 59878));
-    contacts.push_back(std::make_pair("n01.vanilla.cash", 51167));
-    contacts.push_back(std::make_pair("n02.vanilla.cash", 51280));
+    contacts.push_back(std::make_pair("n00.vanilla.cash", 39820));
 
         /**
          * Set the port.
